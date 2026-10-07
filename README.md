@@ -9,6 +9,14 @@ This is the project repository linked from the [original arXiv paper](https://ar
 
 The framework organizes reasoning into cognitive steps to study reasoning efficiency and explainability. The dataset is publicly available below; training code and model checkpoints have not yet been released in this repository.
 
+## Resources and release status
+
+- [Project homepage](https://cnsdqd-dyb.github.io/structured-reasoning/): paper, dataset, method overview, and release status.
+- [Interactive research demo](https://cnsdqd-dyb.github.io/structured-reasoning/analyzer.html#SRA): existing step-dependency visualization.
+- [Open-source roadmap](ROADMAP.md): planned data tools, structured SFT, MaxFlow/LCS implementations, evaluation configurations, and checkpoints. Release dates are to be announced.
+
+The paper, dataset, and demo are available. Training code and checkpoints are planned and have not yet been published in this repository.
+
 ## Dataset
 
 [**FreeFrank/Structured-Reasoning**](https://huggingface.co/datasets/FreeFrank/Structured-Reasoning) is publicly available under the **MIT** license. It contains **516 examples** in one `train` split, with reasoning segmented using **23 cognitive step types**. Parquet and JSONL versions are provided.
