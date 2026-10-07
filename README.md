@@ -3,16 +3,16 @@
 **Structured Reasoning for LLMs: A Unified Framework for Efficiency and Explainability**  
 Yubo Dong, Hehe Fan, Linchao Zhu, and Yi Yang · ICLR 2026
 
-[Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad5b3f324b24c17cdc2f3712298c76bd-Abstract-Conference.html) · [Project page](https://cnsdqd-dyb.github.io/structured-reasoning/) · [Dataset on Hugging Face](https://huggingface.co/datasets/FreeFrank/Structured-Reasoning)
+[Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad5b3f324b24c17cdc2f3712298c76bd-Abstract-Conference.html) · [Project page](https://cnsdqd-dyb.github.io/Enhancing-Large-Language-Models-through-Structured-Reasoning/) · [Dataset on Hugging Face](https://huggingface.co/datasets/FreeFrank/Structured-Reasoning)
 
-This is the project repository linked from the [original arXiv paper](https://arxiv.org/abs/2506.20241). The ICLR 2026 paper links to the [project website](https://cnsdqd-dyb.github.io/structured-reasoning/), whose source is maintained in the separate [website repository](https://github.com/cnsdqd-dyb/structured-reasoning).
+This is the project repository linked from the [original arXiv paper](https://arxiv.org/abs/2506.20241). The ICLR 2026 paper links to the original project URL. Website source is now maintained here in [`docs/`](docs/); the old website repository is retained only to redirect existing paper links.
 
 The framework organizes reasoning into cognitive steps to study reasoning efficiency and explainability. The dataset is publicly available below; training code and model checkpoints have not yet been released in this repository.
 
 ## Resources and release status
 
-- [Project homepage](https://cnsdqd-dyb.github.io/structured-reasoning/): paper, dataset, method overview, and release status.
-- [Interactive research demo](https://cnsdqd-dyb.github.io/structured-reasoning/analyzer.html#SRA): existing step-dependency visualization.
+- [Project homepage](https://cnsdqd-dyb.github.io/Enhancing-Large-Language-Models-through-Structured-Reasoning/): paper, dataset, method overview, and release status.
+- [Interactive research demo](https://cnsdqd-dyb.github.io/Enhancing-Large-Language-Models-through-Structured-Reasoning/analyzer.html#SRA): existing step-dependency visualization.
 - [Open-source roadmap](ROADMAP.md): planned data tools, structured SFT, MaxFlow/LCS implementations, evaluation configurations, and checkpoints. Release dates are to be announced.
 
 The paper, dataset, and demo are available. Training code and checkpoints are planned and have not yet been published in this repository.
@@ -64,3 +64,9 @@ The release includes editorial curation and step annotations. It is not asserted
   url = {https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad5b3f324b24c17cdc2f3712298c76bd-Abstract-Conference.html}
 }
 ```
+
+## Website source and publishing
+
+The project homepage, analysis demo, figures, and example data live in `docs/` in this repository. Preview locally with `python -m http.server 8000 --directory docs`.
+
+GitHub Pages publishes from `main` → `/docs`. The original paper URL, https://cnsdqd-dyb.github.io/structured-reasoning/, is retained through a redirect-only repository. All active website development belongs here.
