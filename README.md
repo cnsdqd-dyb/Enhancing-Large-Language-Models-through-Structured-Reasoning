@@ -1,4 +1,4 @@
-# Structured Reasoning
+# (ICLR 2026) Structured Reasoning
 
 <p align="center">
   <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad5b3f324b24c17cdc2f3712298c76bd-Abstract-Conference.html"><img src="https://img.shields.io/badge/ICLR-2026-17456b?style=flat-square" alt="ICLR 2026"></a>
